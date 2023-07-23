@@ -303,7 +303,7 @@ img:hover {
 
 .float-left-product {
     margin-top: 38px;
-    padding-right: 65px;
+    padding-right: 90px;
     font-size: 12px;
 }
 
@@ -314,7 +314,7 @@ img:hover {
 
 .float-left-product li {
     list-style-type: none;
-    font-size: 12px;
+    font-size: 9px;
 }
 
 .float-left-product ul {

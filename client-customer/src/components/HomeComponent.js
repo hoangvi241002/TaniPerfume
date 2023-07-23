@@ -15,7 +15,7 @@ class Home extends Component {
     render() {
         const newprods = this.state.newprods.map((item) => {
             return (
-                <div key={item._id} className="inline">
+                <div key={item._id} className="inline-newhot">
                     <figure>
                         <Link to={'/product/' + item._id}><img className='img_home' src={"data:image/jpg;base64," + item.image} width="300px" height="300px" alt="" /></Link>
                         <figcaption className="text-center">{item.name}<br />Price: {item.price}$</figcaption>
@@ -25,7 +25,7 @@ class Home extends Component {
         });
         const hotprods = this.state.hotprods.map((item) => {
             return (
-                <div key={item._id} className="inline">
+                <div key={item._id} className="inline-newhot">
                     <figure>
                         <Link to={'/product/' + item._id}><img className='img_home' src={"data:image/jpg;base64," + item.image} width="300px" height="300px" alt="" /></Link>
                         <figcaption className="text-center">{item.name}<br />Price: {item.price}$ </figcaption>
